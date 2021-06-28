@@ -4,6 +4,8 @@ var db = require('./db');
 var app = express();
 var authController = require('./auth/AutheController');
 var transactionController = require('./auth/transaction');
+var cors = require('cors');
+app.use(cors());
 app.use(express.json());
 app.use((req, res, next) => {
 	res.setHeader('Access-Control-Allow-Origin', '*');
