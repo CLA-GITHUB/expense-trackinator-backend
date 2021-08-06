@@ -3,4 +3,4 @@ This is a simple application made for public use. It enables users input their t
 
 Anyone is free to contribute to this application.
 
-The frontend can be found here
+The frontend can be found [here](https://github.com/CLA-GITHUB/expense-trackinator)
